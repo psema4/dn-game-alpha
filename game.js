@@ -4,11 +4,7 @@ var config = require('./config')
 ;
 
 module.exports = (function() {
-    var _isPlaying = false
-      , _isPaused = false
-      , _isGameOver = true
-
-      , gameModule = {
+    var gameModule = {
             site: {
                 name: config.name
               , description: config.description
